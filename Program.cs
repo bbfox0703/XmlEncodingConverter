@@ -31,7 +31,7 @@ namespace XmlEncodingConverter
 
                 foreach (string filePath in xmlFiles)
                 {
-                    // 讀取原始 XML 檔案的前幾行以取得編碼信息
+                    // 讀取原始 XML 檔案的前幾行以取得編碼訊息
                     string firstLine;
                     using (StreamReader reader = new StreamReader(filePath, Encoding.Default))
                     {
